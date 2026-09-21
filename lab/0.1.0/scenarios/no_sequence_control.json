@@ -1,0 +1,34 @@
+{
+  "title": "Kontrolle – Zustand ohne Sequenz",
+  "description": "Private Schätzung bleibt wirksam, sichtbare Vorgeschichte wird aus der Handlungspolitik entfernt.",
+  "seed": 23,
+  "agents": 48,
+  "zones": 4,
+  "symbols": 5,
+  "states": 4,
+  "pulses": 8,
+  "permeability": 0.005,
+  "turnover_interval": 1200,
+  "turnover_fraction": 0.125,
+  "modules": {
+    "emission": {
+      "name": "random_state_asymmetry",
+      "params": {"scale": 0.8, "state_expression": true}
+    },
+    "practice": {
+      "name": "compact_ritual",
+      "params": {
+        "learning_rate": 0.4,
+        "policy_scale": 0.05,
+        "imitation_strength": 1.0,
+        "use_estimate": true,
+        "use_previous_symbol": false
+      }
+    },
+    "memory": {"name": "none", "params": {}}
+  },
+  "metadata": {
+    "status": "control",
+    "control_for": "sequence_dependence"
+  }
+}

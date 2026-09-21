@@ -1,0 +1,24 @@
+{
+  "title": "Kontrolle – vollständige Durchmischung",
+  "description": "Geografische Modularität ist aufgehoben.",
+  "seed": 23,
+  "agents": 48,
+  "zones": 4,
+  "symbols": 5,
+  "states": 4,
+  "pulses": 8,
+  "permeability": 1.0,
+  "turnover_interval": 1200,
+  "turnover_fraction": 0.125,
+  "modules": {
+    "geography": {
+      "name": "porous_zones",
+      "params": {"permeability": 1.0, "base_speed": 0.012}
+    },
+    "memory": {"name": "none", "params": {}}
+  },
+  "metadata": {
+    "status": "control",
+    "control_for": "geographic_modularity"
+  }
+}

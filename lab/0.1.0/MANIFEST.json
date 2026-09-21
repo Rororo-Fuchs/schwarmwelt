@@ -1,0 +1,210 @@
+{
+  "version": "0.1.0",
+  "status": "working_mvp",
+  "files": {
+    "ARCHITECTURE_DE.md": {
+      "sha256": "2e1e0925848d96ae2b8c9cb612e1d633c0cdeb9ac51eca3f155bc23db09aadcb",
+      "bytes": 2435
+    },
+    "CHANGELOG.md": {
+      "sha256": "1f84999acb0c6fac6debd2d2d15390d088646c81129f9c7a2fc5b55141e47acb",
+      "bytes": 396
+    },
+    "DESIGN_DECISIONS_DE.md": {
+      "sha256": "e920ef6eda965d34ea502d85ba9f415baa7ba1a9878f9e6438d6ea56582d5351",
+      "bytes": 1832
+    },
+    "EXTENDING_DE.md": {
+      "sha256": "cc5c618cd9934f27cbe3e87703c638215af9bbe8ff204c4b0e6d5320d083e7e6",
+      "bytes": 2197
+    },
+    "HUMAN_SUPERVISOR_BRIEF_DE.md": {
+      "sha256": "4208ab606d21e815f952a7c36bff2e4401862e28463f93f79db5b3c6136c4e4c",
+      "bytes": 895
+    },
+    "MODEL_STATUS_DE.md": {
+      "sha256": "84d3a387f123ead6dd2b2668a4fef724ee1a095c9da1ca04984c5e901b2f0bb2",
+      "bytes": 1340
+    },
+    "README.md": {
+      "sha256": "1084a718b7abf00d7b183674c65deffe1919aa0a9dfb9e84afb0d8f3a74085df",
+      "bytes": 3188
+    },
+    "SCREENSHOT.png": {
+      "sha256": "519f1a7ee7f031ec75961e2174daf361c719bc1591827dd9a1bdf6e62cc8768b",
+      "bytes": 45100
+    },
+    "SCREENSHOT_DIAGNOSTIC.png": {
+      "sha256": "89f8dfc71867e08f67be6661aa275f3f470406440cb53a53206d56fd74c5b385",
+      "bytes": 70951
+    },
+    "TEST_REPORT.md": {
+      "sha256": "82744b8902b34d424134147f2a41f0a0861c750d872f7c5b0e50f59434369018",
+      "bytes": 1261
+    },
+    "VERSION": {
+      "sha256": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+      "bytes": 6
+    },
+    "example_run.jsonl.gz": {
+      "sha256": "fb2d84a929cf69ac694a5a1cb2390d7b245cd4ba185630ef5ec71819b7edc8a7",
+      "bytes": 56890
+    },
+    "plugins/README.md": {
+      "sha256": "fddbd1c832d114fd586010649b45857a5765268ba78f1157f000eb98130e9140",
+      "bytes": 847
+    },
+    "plugins/example_role_memory.py.disabled": {
+      "sha256": "9c24a46cb6eab6d4fa1a08107103905af984f50fae1463a98565b4f3f8f6d186",
+      "bytes": 716
+    },
+    "pyproject.toml": {
+      "sha256": "af8eeb0a68db79085f566f9ba58019424c92c1cb4e0c39ea2fc206e588b23342",
+      "bytes": 377
+    },
+    "run.py": {
+      "sha256": "52ce429f6991a45faf2ff244861204050412c9f7cf6961c09e86443ff5b869a3",
+      "bytes": 270
+    },
+    "run_headless.py": {
+      "sha256": "768d9be7fd111f862831a125c8fbec9a9819b88138ffb0935ff95ae36251c4e8",
+      "bytes": 1919
+    },
+    "run_matrix.py": {
+      "sha256": "dc6098db89b2e445b97c62cfeca53fa1bf7210d3f89af0f2e2eae2be36b0f297",
+      "bytes": 2778
+    },
+    "scenario.schema.json": {
+      "sha256": "7c273501b5a37a589fc88aa7f52bd8a852f21c1e9b301c77b78ec6d135a73d7c",
+      "bytes": 1069
+    },
+    "scenarios/full_mixing_control.json": {
+      "sha256": "9fac58e7cfa7699615cf09c97585e8b6cbeabbf9f82973842681b28c1f3f07a4",
+      "bytes": 562
+    },
+    "scenarios/no_sequence_control.json": {
+      "sha256": "f3a07242cf91f51e228dcd6ae3e114b705b0458165d22abcb3a2c2afbae36b7f",
+      "bytes": 864
+    },
+    "scenarios/ritual_baseline.json": {
+      "sha256": "37695d612fb84e4765c6dda0d97a6160d0c28e082cd8b5c51b9334dc91265320",
+      "bytes": 1284
+    },
+    "scenarios/sequence_imitation_control.json": {
+      "sha256": "242c590af99873bfa8806292de730fd0a79f28ab761d156b6811bdb2fd90b093",
+      "bytes": 862
+    },
+    "scenarios/social_memory_trace.json": {
+      "sha256": "b4edde424cccd5c567937b6103b303a67ae083c21f61d9ad0d61900f3f33c9c9",
+      "bytes": 1658
+    },
+    "src/schwarmwelt_lab/__init__.py": {
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+      "bytes": 22
+    },
+    "src/schwarmwelt_lab/__main__.py": {
+      "sha256": "71837522fdbc7a090e37a24901d50f26ecbe0be17aa7c2af5a4ee962f3e986c1",
+      "bytes": 30
+    },
+    "src/schwarmwelt_lab/app.py": {
+      "sha256": "b86d78a54a038b1b7ba470269b2c7b477073b4776acf1154f45de754d7f2aaba",
+      "bytes": 262
+    },
+    "src/schwarmwelt_lab/core/__init__.py": {
+      "sha256": "1098b3955d403b77fedad052a3f38fdf9f8cc1e175235438ab2c1c2ddc5ba011",
+      "bytes": 181
+    },
+    "src/schwarmwelt_lab/core/config.py": {
+      "sha256": "3c15b5f926ce40c9b566df8fa6143d15e22d11efa07e80275bcfad83cc9202e4",
+      "bytes": 2846
+    },
+    "src/schwarmwelt_lab/core/controller.py": {
+      "sha256": "86da79c5eccefeb022d567b82d5b7434c185af08e18cedeeb2dd73f849af6138",
+      "bytes": 3102
+    },
+    "src/schwarmwelt_lab/core/engine.py": {
+      "sha256": "8b05e381f4f5e1c53fc2a6095dcffe78f25f57692c39b1637d0bc3b421552a0a",
+      "bytes": 17314
+    },
+    "src/schwarmwelt_lab/core/events.py": {
+      "sha256": "a12b29b45e9e85d3dfca12644ab4cdaf0bdecd7150c2b0e11ca336bf3121b280",
+      "bytes": 655
+    },
+    "src/schwarmwelt_lab/core/interfaces.py": {
+      "sha256": "96d52b7370267d532fb9d8e71ed4cfbb9b5e835e9d8871c098117efdf6c9fa18",
+      "bytes": 3146
+    },
+    "src/schwarmwelt_lab/core/plugins.py": {
+      "sha256": "b59bceab321f7781bf8dbe1efaa2a4ebb385c6ee16c07f2d5f4d95f33667c996",
+      "bytes": 902
+    },
+    "src/schwarmwelt_lab/core/recording.py": {
+      "sha256": "5eb6fd122981bcd49cab6371e4419e1613f0e8019a4afd66b377c61e3f98bb39",
+      "bytes": 2098
+    },
+    "src/schwarmwelt_lab/core/registry.py": {
+      "sha256": "13e5e4ba22c0d3d911ec2953f757573681a5c1a623980323486edcd1b8ce05b5",
+      "bytes": 1121
+    },
+    "src/schwarmwelt_lab/core/types.py": {
+      "sha256": "14b1133b36da5f5801f14b7c293187b248b09f2a3cb036ef0b7bb20f7d2cdd34",
+      "bytes": 1816
+    },
+    "src/schwarmwelt_lab/modules/__init__.py": {
+      "sha256": "f64837a6e8a0a36c1f22e0b9e0fa92ae53f952dd4bf26dd00754fe9fb4f782e8",
+      "bytes": 209
+    },
+    "src/schwarmwelt_lab/modules/emission.py": {
+      "sha256": "1a6e65240b364a31fa8c061a1e2edc6dd33442dd02ebe394c4f9d8c44d8a09c0",
+      "bytes": 1587
+    },
+    "src/schwarmwelt_lab/modules/geography.py": {
+      "sha256": "3022dd014e2258d4130942b5547d8405daf8c7d5ef1bf1b94e57d6c2deedf8e5",
+      "bytes": 2121
+    },
+    "src/schwarmwelt_lab/modules/inference.py": {
+      "sha256": "5bf81ae6bb25158fdc517f8b3f1e93fcb52bc73237b1043210e73f11ad7564b0",
+      "bytes": 3498
+    },
+    "src/schwarmwelt_lab/modules/memory.py": {
+      "sha256": "f344fdb0f20cc01753be2771defff7a5eff8818052855abe39e8a227e415611f",
+      "bytes": 3848
+    },
+    "src/schwarmwelt_lab/modules/practice.py": {
+      "sha256": "991fd569487c72b3a756cf5ff7e7b49d6f60b699aa2cd427bd44156fa74d127e",
+      "bytes": 3985
+    },
+    "src/schwarmwelt_lab/modules/valence.py": {
+      "sha256": "6a27f9f7b4eb12a146af7403bc5e7104ba61010b17e5f7ec247c8e80b5f59798",
+      "bytes": 4244
+    },
+    "src/schwarmwelt_lab/ui/__init__.py": {
+      "sha256": "f2caf3597b4c5ada3396511cc130d5c1bcbea9ba1951cca7048fe76b9b6bdc3b",
+      "bytes": 62
+    },
+    "src/schwarmwelt_lab/ui/main_window.py": {
+      "sha256": "03013aa28f14a10efaa9bc8682918cdf4f0c82622e40f211061ba4f58c36031e",
+      "bytes": 10533
+    },
+    "src/schwarmwelt_lab/ui/world_canvas.py": {
+      "sha256": "af60a44c256d78acb03b34f6c50b0901ad06d4590fad4296e0bd5ff727d16946",
+      "bytes": 6122
+    },
+    "start_linux.sh": {
+      "sha256": "69157b7834cc9c68dedf14d4e4d809d2b5386b0e289dcd272e3472add7caa8d7",
+      "bytes": 54
+    },
+    "start_windows.bat": {
+      "sha256": "91b348d3faf47313604a373a0927bac4a042246f5dc2d841780ba784e86ab3c7",
+      "bytes": 62
+    },
+    "tests/test_engine.py": {
+      "sha256": "bb975ad7d3ca2f15e5d5fcd9761e1ee72b335cc8eadc0a9204f3d3d66f7af987",
+      "bytes": 3029
+    },
+    "tests/test_scenarios.py": {
+      "sha256": "628e13a96b7d3fe15c83d8cdbba70503b01c10693e31d47a547a84d0fea1a998",
+      "bytes": 799
+    }
+  }
+}

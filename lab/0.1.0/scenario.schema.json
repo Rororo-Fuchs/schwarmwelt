@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Schwarmwelt scenario",
+  "type": "object",
+  "required": ["title", "agents", "zones", "symbols", "states", "pulses", "modules"],
+  "properties": {
+    "title": {"type": "string"},
+    "description": {"type": "string"},
+    "seed": {"type": "integer"},
+    "agents": {"type": "integer", "minimum": 2},
+    "zones": {"type": "integer", "minimum": 1},
+    "symbols": {"type": "integer", "minimum": 2},
+    "states": {"type": "integer", "minimum": 2},
+    "pulses": {"type": "integer", "minimum": 1},
+    "permeability": {"type": "number", "minimum": 0, "maximum": 1},
+    "turnover_interval": {"type": "integer", "minimum": 0},
+    "turnover_fraction": {"type": "number", "minimum": 0, "maximum": 1},
+    "modules": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": {"type": "string"},
+          "params": {"type": "object"}
+        }
+      }
+    },
+    "metadata": {"type": "object"}
+  }
+}

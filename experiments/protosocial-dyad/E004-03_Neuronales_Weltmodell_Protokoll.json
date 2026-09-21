@@ -1,0 +1,63 @@
+{
+  "seeds": 20,
+  "train_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "val_seeds": [
+    12,
+    13,
+    14,
+    15
+  ],
+  "test_seeds": [
+    16,
+    17,
+    18,
+    19
+  ],
+  "train_ticks": 3600,
+  "stable_ticks": 1200,
+  "intervention_ticks": 1000,
+  "seq_len": 96,
+  "stride": 48,
+  "batch_size": 64,
+  "max_epochs": 14,
+  "patience": 3,
+  "learning_rate": 0.003,
+  "beta_kl": 0.0025,
+  "hidden_dim": 16,
+  "latent_dims": [
+    0,
+    2,
+    4
+  ],
+  "transient_width": 8,
+  "base_seed": 17000,
+  "conditions": [
+    "calibration_positive",
+    "calibration_negative",
+    "persistent_reactive",
+    "playback",
+    "reactive_memoryless",
+    "autonomous_persistent",
+    "random_process",
+    "identity_switch"
+  ],
+  "models": {
+    "M0": 0,
+    "M1": 2,
+    "M2": 4
+  },
+  "research_rule": "No reward; next-observation prediction plus information-complexity penalty."
+}

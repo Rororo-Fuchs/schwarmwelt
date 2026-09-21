@@ -1,0 +1,57 @@
+{
+  "title": "Experimentelles verteiltes Sozialgedächtnis",
+  "description": "Zonale, vergängliche Kontext-Folge-Spuren; noch nicht als Kulturmechanismus validiert.",
+  "seed": 23,
+  "agents": 48,
+  "zones": 4,
+  "symbols": 5,
+  "states": 4,
+  "pulses": 8,
+  "permeability": 0.005,
+  "turnover_interval": 1200,
+  "turnover_fraction": 0.125,
+  "modules": {
+    "valence": {
+      "name": "intrinsic_2d",
+      "params": {"attraction_ratio": 0.9, "social_scale": 0.035}
+    },
+    "geography": {
+      "name": "porous_zones",
+      "params": {"permeability": 0.005, "base_speed": 0.012}
+    },
+    "emission": {
+      "name": "random_state_asymmetry",
+      "params": {"scale": 0.8, "state_expression": true}
+    },
+    "inference": {
+      "name": "pair_hmm",
+      "params": {"learning_rate": 0.08, "stickiness": 0.72}
+    },
+    "practice": {
+      "name": "compact_ritual",
+      "params": {
+        "learning_rate": 0.4,
+        "policy_scale": 0.05,
+        "imitation_strength": 1.0,
+        "use_estimate": true,
+        "use_previous_symbol": true
+      }
+    },
+    "memory": {
+      "name": "distributed_trace",
+      "params": {
+        "decay": 0.998,
+        "write_threshold": 0.004,
+        "read_strength": 0.65,
+        "write_strength": 1.0,
+        "maximum_weight": 6.0
+      }
+    }
+  },
+  "metadata": {
+    "status": "unvalidated_research_hypothesis",
+    "hypothesis": "Ein verteiltes kontextbindendes Sozialgedächtnis könnte Praxis über ursprüngliche Dyaden hinaus verfügbar machen.",
+    "risk": "Das Gedächtnismodul könnte die gesuchte Sozialstruktur bereits konstruktiv einbauen.",
+    "not_a_scientific_claim": true
+  }
+}

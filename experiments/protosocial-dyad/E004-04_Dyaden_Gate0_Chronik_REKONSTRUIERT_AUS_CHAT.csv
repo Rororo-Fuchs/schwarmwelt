@@ -1,0 +1,7 @@
+block,status,primary_result,decision,integrity
+Gate0_initial,failed,"Persistente Ursache repräsentierbar; kurzfristige Kontrolle scheitert",M0/M1 kapazitätsgleich neu aufsetzen,reconstructed_from_chat
+Gate0_matched_GRU,failed,"Langzeit: M1 advantage ~0.02236 (4/4); short ~tie; white noise small M1 advantage",negative control replicate,reconstructed_from_chat
+Gate0_negative_replication,failed,"48 paired comparisons; mean M1 advantage ~0.000342; M0 tie/better 39.6%",Gate0 remains closed,reconstructed_from_chat
+Gate0_model_selection,failed,"10 epochs: mean M1 advantage ~-0.000063; CI ~[-0.000412,0.000272]",frozen 75% criterion not met,reconstructed_from_chat
+Gate0_probabilistic_state_space,failed,"positive long memory ~0.01174 and 8/8; short/noise means ~0 but directional criterion 4/8",final null-control replication,reconstructed_from_chat
+Gate0_final_replication,architecture_abort,"short reactive diff ~0.002747 CI [0.001841,0.003655]; white noise ~0.000321 CI [0.000105,0.000533]",probabilistic GRU family rejected; Gate A not opened,reconstructed_from_chat

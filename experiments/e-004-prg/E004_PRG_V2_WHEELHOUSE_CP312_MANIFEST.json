@@ -1,0 +1,35 @@
+{
+  "abi": "cp312",
+  "all_published_digests_match": true,
+  "created_date": "2026-07-08",
+  "files": [
+    {
+      "filename": "llvmlite-0.47.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "published_digest_match": true,
+      "published_pypi_sha256": "5853bf26160857c0c2573415ff4efe01c4c651e59e2c55c2a088740acfee51cd",
+      "sha256": "5853bf26160857c0c2573415ff4efe01c4c651e59e2c55c2a088740acfee51cd",
+      "size_bytes": 56275178
+    },
+    {
+      "filename": "numba-0.65.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "published_digest_match": true,
+      "published_pypi_sha256": "52bc6f3ceb8fcaff9b2ae26b4c6b1e9fee39db8d355534c0fe4f39a901246b84",
+      "sha256": "52bc6f3ceb8fcaff9b2ae26b4c6b1e9fee39db8d355534c0fe4f39a901246b84",
+      "size_bytes": 3802467
+    },
+    {
+      "filename": "numpy-2.3.5-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "published_digest_match": true,
+      "published_pypi_sha256": "0d8163f43acde9a73c2a33605353a4f1bc4798745a8b1d73183b28e5b435ae28",
+      "sha256": "0d8163f43acde9a73c2a33605353a4f1bc4798745a8b1d73183b28e5b435ae28",
+      "size_bytes": 16606086
+    }
+  ],
+  "packages": {
+    "llvmlite": "0.47.0",
+    "numba": "0.65.1",
+    "numpy": "2.3.5"
+  },
+  "schema": "e004-prg-v2-stage-a-wheelhouse-manifest-v1",
+  "target": "CPython 3.12 / Linux x86_64"
+}

@@ -1,0 +1,24 @@
+"""Nur Vorlage; durch Umbenennen in .py aktivierbar."""
+from schwarmwelt_lab.core.interfaces import SocialMemoryModule
+from schwarmwelt_lab.core.registry import register
+
+
+@register("memory", "role_memory_example")
+class RoleMemoryExample(SocialMemoryModule):
+    def __init__(self, strength=0.2):
+        self.strength = strength
+
+    def initialize(self, zone_count, symbols, states):
+        self.symbols = symbols
+
+    def tick(self, tick):
+        pass
+
+    def action_bias(self, zone, estimated_state, previous_partner_symbol):
+        return [0.0] * self.symbols
+
+    def observe(self, context, chosen_symbol):
+        pass
+
+    def summary(self):
+        return {"type": "role_memory_example", "entries": 0}

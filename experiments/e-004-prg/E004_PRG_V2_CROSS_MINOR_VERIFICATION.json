@@ -1,0 +1,47 @@
+{
+  "bind_executed": false,
+  "comparisons": {
+    "prg_policy_and_counter_rng": {
+      "bit_identical": true,
+      "raw_sha256": "fffef38ac36104c6f5c1dfc5199cd903589b5f6292be7b4ecd02df4375cd942b"
+    },
+    "synthetic_fidelity_kernel_and_technical_gates": {
+      "cp312_canonical_sha256": "235ae242e62727dad44c977950eed629a289ae9d6af2e72dcff1efaa4d9bafe0",
+      "cp313_canonical_sha256": "235ae242e62727dad44c977950eed629a289ae9d6af2e72dcff1efaa4d9bafe0",
+      "full_result_json_identical": true,
+      "outside_mc99_count": 0,
+      "stream_role_permutation_p": 0.898
+    },
+    "tape_engine_nine_replays": {
+      "bit_identical_after_excluding_runtime_and_absolute_archive_path": true,
+      "cp312_canonical_sha256": "bf400aba445c7fbc1269a2a3e5ef6102834ae580ac34fd9c877b66a2c67ddcbd",
+      "cp313_canonical_sha256": "bf400aba445c7fbc1269a2a3e5ef6102834ae580ac34fd9c877b66a2c67ddcbd",
+      "trajectories": 9
+    }
+  },
+  "conclusion": "For the tested frozen Stage-A core paths, CPython 3.12 and 3.13 produced bit-identical numerical/state outputs.",
+  "contains_bind_result": false,
+  "created_date": "2026-07-08",
+  "environments": {
+    "cp312": {
+      "llvmlite": "0.47.0",
+      "nopython_probe_pass": true,
+      "numba": "0.65.1",
+      "numpy": "2.3.5",
+      "offline_install_pass": true,
+      "python": "3.12.13 (main, Jun 24 2026, 02:08:01) [GCC 14.2.0]",
+      "test_rootfs_image_manifest_digest": "sha256:86d3e4424d5e963e60594a3a6b4d597cc4d41f5152fe67a97a40dca9ea092475"
+    },
+    "cp313": {
+      "llvmlite": "0.47.0",
+      "nopython_probe_pass": true,
+      "numba": "0.65.1",
+      "numpy": "2.3.5",
+      "offline_install_pass": true,
+      "python": "3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]"
+    }
+  },
+  "pass": true,
+  "schema": "e004-prg-v2-stage-a-cross-minor-verification-v1",
+  "scope": "Frozen Stage-A core paths only; no general claim for arbitrary Numba programs."
+}

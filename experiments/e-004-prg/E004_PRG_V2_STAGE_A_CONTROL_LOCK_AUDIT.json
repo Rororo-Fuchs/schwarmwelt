@@ -1,0 +1,36 @@
+{
+  "bind_values_computed": false,
+  "checks": {
+    "control_manifest_link_matches": true,
+    "implementation_manifest_link_matches": true,
+    "tape_manifest_link_matches": true,
+    "threshold_sidecar_matches": true
+  },
+  "control_files_verified": 9,
+  "date": "2026-07-08",
+  "errors": [],
+  "min_as_effective_reassignment_fraction": 0.8691861165772762,
+  "min_as_effectively_changed_mass_fraction": 0.8108220564316885,
+  "min_as_permutable_mass_fraction": 0.8112318517801217,
+  "pass": true,
+  "quantile": 0.975,
+  "quantile_method": "higher",
+  "replicates_per_control": 999,
+  "schema": "e004-prg-v2-stage-a-control-lock-audit-v1",
+  "seed_quantiles_AP": {
+    "1031": 6.96665573612963e-05,
+    "1047": 6.860629722046818e-05,
+    "1086": 8.143114595001919e-05
+  },
+  "seed_quantiles_AS": {
+    "1031": 6.0219073419310495e-05,
+    "1047": 8.514540963067646e-05,
+    "1086": 6.714948920857292e-05
+  },
+  "tape_reproduction": "Rebuild with frozen implementation/source package; compare against STAGE_A_TAPE_MANIFEST.json.",
+  "tapes_in_package": false,
+  "tapes_verified": 9,
+  "tau_AP": 8.143114595001919e-05,
+  "tau_AS": 8.514540963067646e-05,
+  "threshold_sha256": "a3d9c62c602c986a70dbc5dd7a4a058384f275dd7faf58c9279e5e7abd71a0bb"
+}
