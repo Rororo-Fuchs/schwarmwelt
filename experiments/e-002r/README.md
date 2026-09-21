@@ -13,7 +13,7 @@ The experiment was nevertheless rejected as a proto-cultural/social-reconstructi
 ## Archival packages
 
 
-The large immutable source packages are prepared outside Git history as release/Zenodo assets:
+The large immutable source packages are prepared outside Git history as release or archival assets:
 
 
 - `Schwarmwelt – E002R – vollständiges Explorationspaket.zip`

@@ -10,7 +10,7 @@ The implementation and analysis were frozen and audited before the final result 
 ## Archival packages
 
 
-The large immutable packages are prepared outside Git history as release/Zenodo assets:
+The large immutable packages are prepared outside Git history as release or archival assets:
 
 
 - `Schwarmwelt – E003-D2 – Projektions- und Unabhängigkeitsaudit.zip`
